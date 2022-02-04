@@ -19,7 +19,7 @@ li{
     list-style: none;
 }
 img{
-    vertical-align: auto;
+    vertical-align: top;
 }
 h1,
 h2,
@@ -51,5 +51,5 @@ body
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: content-box;
-    padding: 0 10px;
+    padding: 0 10px ;
 }

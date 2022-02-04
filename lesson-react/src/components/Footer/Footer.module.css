@@ -1,0 +1,36 @@
+  .form__footer{
+    background-color: rgb(29, 29, 29);
+  }
+  .form__first{
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .form__container_one{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+  }
+  .form__li_one{
+    padding: 20px;
+  }
+  .form__link_one{
+    color: #818181;
+    transition: 0.3s linear;
+  }
+  .form__link_one:hover{
+    color: rgb(226, 185, 185);
+  }
+  .form__li_two{
+    padding: 20px;
+  }
+  .form__link_two{
+    color: #818181;
+    transition: 0.3s linear;
+  }
+  .form__link_two:hover{
+    color: rgb(226, 185, 185);
+  }
+  .form__container_two{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+  }

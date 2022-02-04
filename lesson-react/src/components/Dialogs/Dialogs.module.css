@@ -1,0 +1,91 @@
+.dialogs{
+    display: flex;
+    min-height: 1000px;
+    margin-bottom: 10px;
+}
+.dialog_people{
+    display: flex;
+    width: 100%;
+}
+.dialog_people_list{
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    min-width: 400px;
+}
+.people_item{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin: 0 20px 10px 20px;
+}
+
+.item_link{
+    color:rgb(31, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.dialog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 400px;
+}
+.dialog_avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.dialog_name{
+
+}
+.dialog_sms{
+    margin-bottom: 20px;
+}
+.dialog__add__message{
+display: flex;
+}
+.add__message{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+
+}
+.add__message__area{
+    border: 1px solid #D6D6D6;
+    outline:none;
+    padding: 0 20px;
+    resize: none;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 200px;
+}
+.add__message__link{
+
+    display: block;
+    width: 150px;
+    height: 30px;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    background-color: rgb(5, 5, 5);
+    color: rgb(190, 190, 190);
+}
+.add__message__link:hover{
+    background-color: rgb(129, 129, 129);
+    color: rgb(0, 0, 0);
+
+}
+.we__dialogs{
+    background-color: #fff;
+
+}
