@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.post{
+    display: flex;
+    margin-bottom: 30px;
+}
+.post_item{
+    margin: 5px;
+    width: 200px;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post__text{
+    display: block;
+    width: 200px;
+}
+.post__like{
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+}
+.post__avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.post__name{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 5px;
+}
