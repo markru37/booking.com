@@ -4,7 +4,7 @@ const MainPage = () => {
     return (
         <div className ='header'>
             <div className="header__container _container">
-             lor  
+             lolkek
             </div>
         </div>
     );
