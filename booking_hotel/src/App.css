@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 /* обнуление */
 *,
@@ -38,7 +39,7 @@ body
     font-size: 16px;
     color: #333333;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Inter','Montserrat' sans-serif; 
 }
 /*--------BASIC------------------ */
 .wrapper_all{
@@ -48,7 +49,7 @@ body
     flex-direction: column;
 }
 ._container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     box-sizing: content-box;
     padding: 0 10px;
